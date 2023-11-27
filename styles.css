@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #302f42;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.titol {
+    font-size: 25px;
+}
+
+.contenidor {
+    margin-bottom: 30px;
+    perspective: 1000px;
+}
+
+.teclat {
+    display: flex;
+    justify-content: center;    
+    font-size: 35px;
+}
+
+.lletra {
+    background-color: #444451;
+    height: 40px;
+    width: 43px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.lletra.correcta {
+    background-color: rgb(25, 190, 25);
+}
+
+.lletra.incorrecta {
+    background-color: rgb(240, 36, 36);
+}
+
+.lletra:not(.incorrecta, .correcta):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+p.text {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.intents p.text span {
+    color: #6feaf6;
+}
+
+.paraula {
+    font-size: 50px;
+}

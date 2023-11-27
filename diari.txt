@@ -1,0 +1,7 @@
+Dia 1
+
+Para el dia 1 realizare el diseño visual de dicho juego, introduciendo el texto, teclado y darle un estilo a estos.
+
+Dia 2
+
+En el dia 2 introducire el contador de cuenta atras y empezare con javascript
