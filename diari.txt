@@ -1,7 +1,8 @@
-Dia 1
+REALIZADO:
 
-Para el dia 1 realizare el diseño visual de dicho juego, introduciendo el texto, teclado y darle un estilo a estos.
+El dia de hoy me he enfocado principalmente en el diseño del html y css del proyecto
 
-Dia 2
 
-En el dia 2 introducire el contador de cuenta atras y empezare con javascript
+HA REALIZAR:
+
+En el siguiente dia introducire el contador de cuenta atras y empezare con javascript.
