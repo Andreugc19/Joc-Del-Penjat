@@ -1,8 +1,9 @@
 REALIZADO:
 
-El dia de hoy me he enfocado principalmente en el diseño del html y css del proyecto
+-El dia de hoy me he enfocado principalmente en el diseño del html y css del proyecto
 
+-En el segundo dia he empezado a implementar javascript, con las funciones de las letras correctas e incorrectas del teclado para acertar la palabra
 
 HA REALIZAR:
 
-En el siguiente dia introducire el contador de cuenta atras y empezare con javascript.
+En el siguiente dia introducire la funcion del contador de cuenta atras y introducire las palabras para que cuando seleccione una letra me diga si es correcta o incorrecta.
