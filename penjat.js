@@ -14,6 +14,14 @@ function actualitzaLletra() {
     localStorage.setItem('lletresSeleccionades', JSON.stringify(lletraIndex));
 }
 
+function comptaEnrrera() {
+
+}
+
+function seleccioLletra() {
+
+}
+
 function ompleUI() {
     const lletresSeleccionades = JSON.parse(localStorage.getItem('lletresSeleccionades'));
 
