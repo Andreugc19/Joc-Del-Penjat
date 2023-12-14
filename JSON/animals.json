@@ -1,47 +1,21 @@
 [
-    {
-        "nombre": "perro"
-    },
-    {
-        "nombre": "gato"
-    },
-    {
-        "nombre": "cangrejo"
-    },
-    {
-        "nombre": "caballo"
-    },
-    {
-        "nombre": "nutria"
-    },
-    {
-        "nombre": "zarigueya"
-    },
-    {
-        "nombre": "libelula"
-    },
-    {
-        "nombre": "koala"
-    },
-    {
-        "nombre": "lubina"
-    },
-    {
-        "nombre": "aguila"
-    },
-    {
-        "nombre": "oso"
-    },
-    {
-        "nombre": "raton"
-    },
-    {
-        "nombre": "calamar"
-    },
-    {
-        "nombre": "langosta"
-    },
-    {
-        "nombre": "zorro"
-    }
+    "PATO", 
+    "LEON", 
+    "TIGRE", 
+    "CANGURO", 
+    "ELEFANTE", 
+    "SERPIENTE", 
+    "JIRAFA", 
+    "COCODRILO", 
+    "RINOCERONTE", 
+    "LEOPARDO", 
+    "HIPOPOTAMO", 
+    "CABALLO", 
+    "PERRO", 
+    "GATO", 
+    "CONEJO", 
+    "PINGUINO", 
+    "DELFIN", 
+    "AGUILA", 
+    "TORTUGA"
 ]

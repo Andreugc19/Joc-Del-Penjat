@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #302f42;
+    background-color: #468396;
     display: flex;
     flex-direction: column;
     color: white;
@@ -29,22 +29,24 @@ body {
 }
 
 .lletra {
-    background-color: #444451;
+    background-color: #226377;
     height: 40px;
     width: 43px;
     margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .lletra.correcta {
     background-color: rgb(25, 190, 25);
+    pointer-events:none;
 }
 
 .lletra.incorrecta {
     background-color: rgb(240, 36, 36);
+    pointer-events:none;
 }
 
 .lletra:not(.incorrecta, .correcta):hover {
@@ -56,6 +58,7 @@ p.text {
     margin-top: 35px;
     margin-bottom: 10px;
     font-size: 18px;
+    text-align: center;
 }
 
 .intents p.text span {
@@ -66,4 +69,66 @@ p.text {
     display: flex;
     justify-content: center;
     font-size: 50px;
+}
+
+.boto, .select{
+    background-color: #226377;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18pt;
+    border-radius: 5px;
+    border: none;
+}
+
+.desabilitat{
+    pointer-events:none;
+}
+
+#compteEnrrere {
+    display: flex;
+    justify-content: center;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+  
+.popup-content {
+    background: #378096;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    position: relative;
+}
+  
+.popup-titol {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.popup-missatge {
+    font-size: 18px;
+}
+
+.boto-tancar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+  
+.boto-tancar:hover {
+    color: white;
 }

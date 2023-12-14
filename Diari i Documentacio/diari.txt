@@ -1,0 +1,33 @@
+REALIZADO:
+
+28/11 
+-El dia de hoy me he enfocado principalmente en el diseño del html y css del proyecto
+
+29/11 
+-En siguiente dia he empezado a implementar javascript, con las funciones de las letras correctas e incorrectas del teclado para acertar la palabra
+
+4/12 
+-El siguiente dia he finalizado la funcion de actualizar la letra para saber si es correcta o incorrecta i el evento de al dar click en una letra que salga el color correspondiente, aparte he empezado a implementar ficheros json para introducir palabras
+
+5/12
+-El siguiente dia he realizado la funcion de iniciar la partida con un boton de empezar y otro que sea una selecciona de categorias, al dara dicha categoria se genera una palabra aleatoria para adivinar
+
+6/12
+-El siguiente dia he realizado la funcion de cuenta atras y el crono, el cual, cuando pasan 10 segundos sin hacer nada resta un intento con el formato del crono y el de los intentos
+
+11/12
+-El siguiente dia he acabado completamente el cuenta atras que cuando se seleciona una letra o dejo pasar los 10 segundos se restaura
+
+12/12
+-El siguiente dia he hecho la funcion de acabar la partida con la cual que salga un popup y ademas de eso minifunciones del tema del crono, cuenta atras, para que funcionen en el momento que quiero
+
+13/12
+-El ultimo dia he implementado la accion de que me genere una palabra aleatoria y acabar de retocar css.
+
+HA REALIZAR:
+
+Lo unico que quedaria por realizar en este proyecto del juego del ahorcado, serian las actualizaciones/sugerencias: 
+
+-Seleccionar un tiempo para la cuenta atras por el tema de dificultat
+-Dar de alta y de baja a usuarios y poder guardar registro de estadisticas
+-Crear una pantalla donde ver los records por palabra.

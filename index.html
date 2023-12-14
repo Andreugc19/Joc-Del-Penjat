@@ -1,66 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Penjat</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="titol">
-        <h1>El Joc del Penjat</h1>
+      <h1>El Joc del Penjat</h1>
     </div>
+
+<!-- Seccio dels intents restants -->
     <div class="intents">
-        <p class="text">Seleccioni una lletra, li queden <span id="contador">7</span> intents.</p>
+      <p class="text">
+        Seleccioni una lletra, li queden <span id="contador">7</span> intents.
+      </p>
+      <p id="text" class="text"></p>
     </div>
 
-    <div class="contendior">
-        <p class="paraula">A D I O S</p>
-        <div class="teclat">
-            <div class="lletra correcta">A</div>
-            <div class="lletra">B</div>
-            <div class="lletra">C</div>
-            <div class="lletra correcta">D</div>
-            <div class="lletra">E</div>
-            <div class="lletra incorrecta">F</div>
-            <div class="lletra">G</div>
-            <div class="lletra">H</div>
-        </div>
-        <div class="teclat">
-            <div class="lletra correcta">I</div>
-            <div class="lletra incorrecta">J</div>
-            <div class="lletra">K</div>
-            <div class="lletra incorrecta">L</div>
-            <div class="lletra ">M</div>
-            <div class="lletra">N</div>
-            <div class="lletra">Ñ</div>
-            <div class="lletra correcta">O</div>
-        </div>
-        <div class="teclat">
-            <div class="lletra">P</div>
-            <div class="lletra">Q</div>
-            <div class="lletra incorrecta">R</div>
-            <div class="lletra correcta">S</div>
-            <div class="lletra">T</div>
-            <div class="lletra">U</div>
-            <div class="lletra">V</div>
-            <div class="lletra">W</div>
-        </div>
-        <div class="teclat">
-            <div class="lletra">X</div>
-            <div class="lletra">Y</div>
-            <div class="lletra">Z</div>
-        </div>
+<!-- Seccio de paraula i teclat amb les lletres -->
+    <p class="paraula" id="paraula"></p>
+    <div class="contendior desabilitat" id="teclat">
+      <div class="teclat">
+        <div class="lletra">A</div>
+        <div class="lletra">B</div>
+        <div class="lletra">C</div>
+        <div class="lletra">D</div>
+        <div class="lletra">E</div>
+        <div class="lletra">F</div>
+        <div class="lletra">G</div>
+        <div class="lletra">H</div>
+      </div>
+      <div class="teclat">
+        <div class="lletra">I</div>
+        <div class="lletra">J</div>
+        <div class="lletra">K</div>
+        <div class="lletra">L</div>
+        <div class="lletra">M</div>
+        <div class="lletra">N</div>
+        <div class="lletra">Ñ</div>
+        <div class="lletra">O</div>
+      </div>
+      <div class="teclat">
+        <div class="lletra">P</div>
+        <div class="lletra">Q</div>
+        <div class="lletra">R</div>
+        <div class="lletra">S</div>
+        <div class="lletra">T</div>
+        <div class="lletra">U</div>
+        <div class="lletra">V</div>
+        <div class="lletra">W</div>
+      </div>
+      <div class="teclat">
+        <div class="lletra">X</div>
+        <div class="lletra">Y</div>
+        <div class="lletra">Z</div>
+      </div>
     </div>
 
-    <div class="numeroErros">
-        <p class="text">Has comès <span id="errors">4</span> errors.</p>
+<!-- Seccio de boto de començament y de seleccio de categoria -->
+    <div>
+      <button class="boto" id="boto">Començar</button>
+      <select id="select" class="select">
+        <option value="animals">Animals</option>
+        <option value="paisos">Paisos</option>
+        <option value="ciutats">Ciutats</option>
+        <option value="professions">Professions</option>
+        <option value="deports">Deports</option>
+      </select>
     </div>
+      <p class="text">Has comès <span id="errors">0</span> errors.</p>
+    </div>
+
+<!-- Seccio del cronometro i del compte enrrere -->
     <section class="crono">
-        <p>
-            <span id="hores"></span> 00:<span id="minuts"></span>00:<span id="segons"></span>00
-        </p>
+      <p>
+        <span id="hores">00</span>:<span id="minuts">00</span>:<span id="segons">00</span>
+      </p>
+      <p>
+        <span id="compteEnrrere">10</span>
+      </p>
     </section>
+
+<!-- Popip del resultat del joc -->  
+    <div id="popup" class="popup">
+      <div id="popup-content" class="popup-content">
+        <h2 id="popup-titol" class="popup-titol"></h2>
+        <p id="popup-missatge" class="popup-missatge"></p>
+        <div id="boto-tancar" class="boto-tancar">X</div>
+      </div>
+    </div>
     <script src="penjat.js"></script>
-</body>
+  </body>
 </html>

@@ -1,47 +1,19 @@
 [
-    {
-        "nombre": "españa"
-    },
-    {
-        "nombre": "guadalajara"
-    },
-    {
-        "nombre": "alemania"
-    },
-    {
-        "nombre": "francia"
-    },
-    {
-        "nombre": "brasil"
-    },
-    {
-        "nombre": "haiti"
-    },
-    {
-        "nombre": "japon"
-    },
-    {
-        "nombre": "nauru"
-    },
-    {
-        "nombre": "palaos"
-    },
-    {
-        "nombre": "mongolia"
-    },
-    {
-        "nombre": "uganda"
-    },
-    {
-        "nombre": "ruanda"
-    },
-    {
-        "nombre": "zimbabue"
-    },
-    {
-        "nombre": "argentina"
-    },
-    {
-        "nombre": "lesoto"
-    }
+    "FRANCIA",
+    "ESPAÑA", 
+    "ALEMANIA", 
+    "ITALIA", 
+    "CANADA", 
+    "AUSTRALIA", 
+    "BRASIL", 
+    "ARGENTINA", 
+    "JAPON", 
+    "CHINA", 
+    "INDIA", 
+    "RUSIA", 
+    "MEXICO", 
+    "COLOMBIA", 
+    "CHILE", 
+    "PERU", 
+    "EGIPTO"
 ]
